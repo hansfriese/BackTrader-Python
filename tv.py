@@ -22,7 +22,7 @@ ShowWarningThresholdLine = True
 orderThreshold = 90
 
 def ReadHistoryData():
-    start = '2013-09-5'
+    start = '2015-09-5'
     end = '2019-05-08'
 
     df = web.DataReader(name=symbol, data_source='iex', start=start, end=end)
